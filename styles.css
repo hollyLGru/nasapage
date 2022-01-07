@@ -25,7 +25,7 @@ body {
 
 section {
         border: 0pt solid black;
-        background-color: rgb(233, 229, 229);
+        background-color: rgb(230,230,230);
         margin-top: 1px;
         margin-bottom: 10pt;
         padding-bottom: 50pt;
@@ -49,14 +49,17 @@ section {
         font-style: bold;
     }
 
-    .btn {
-        border: none; /* Remove borders */
-        color: white; /* Add a text color */
-        padding: 14px 28px; /* Add some padding */
-        cursor: pointer; /* Add a pointer cursor on mouse-over */
-      }
-
-      .btn send {background-color: #181818; 
-        color: black;
-    } 
+    button {
+      background-color: #303130;
+      border: none;
+      color: white;
+      padding: 9px 13px;
+      margin-top: 7px;
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      Height: auto;
+      width: auto; 
+    }
    
